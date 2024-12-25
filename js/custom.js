@@ -1,18 +1,18 @@
 
-  (function (  ) {
+  (function ($) {
   
   "use strict";
 
     // MENU
-    ('#sidebarMenu .nav-link').on('click',function(){
-      ("#sidebarMenu").collapse('hide');
+    $('#sidebarMenu .nav-link').on('click',function(){
+      $("#sidebarMenu").collapse('hide');
     });
     
     // CUSTOM LINK
-    ('.smoothscroll').click(function(){
-      var el = (this).attr('href');
-      var elWrapped = (el);
-      var header_height = ('.navbar').height();
+    $('.smoothscroll').click(function(){
+      var el = $(this).attr('href');
+      var elWrapped = $(el);
+      var header_height = $('.navbar').height();
   
       scrollToDiv(elWrapped,header_height);
       return false;
@@ -22,7 +22,7 @@
         var offsetTop = offset.top;
         var totalScroll = offsetTop-navheight;
   
-        ('body,html').animate({
+        $('body,html').animate({
         scrollTop: totalScroll
         }, 300);
       }

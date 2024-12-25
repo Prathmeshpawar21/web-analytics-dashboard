@@ -6,10 +6,10 @@
 
         <meta name="description" content="">
         <meta name="author" content="Tooplate">
-<link rel="image" type="image/png" href="favicon.ico" >
-        <title>Finance </title>
 
-              
+        <title>Finance Dashboard Template</title>
+
+        <!-- CSS FILES -->      
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
         <link href="css/apexcharts.css" rel="stylesheet">
 
         <link href="css/tooplate-mini-finance.css" rel="stylesheet">
-
+ 
 
     </head>
     
@@ -272,7 +272,7 @@
                             <div class="custom-block custom-block-balance">
                                 <small>Your Balance</small>
 
-                                <h2 class="mt-2 mb-3">  254,800</h2>
+                                <h2 class="mt-2 mb-3">$254,800</h2>
 
                                 <div class="custom-block-numbers d-flex align-items-center">
                                     <span>****</span>
@@ -313,7 +313,7 @@
 
                                         <div>
                                             <p>INR</p>
-                                            <h6>1 Rupees</h6>
+                                            <h6>1 Indian Rupees</h6>
                                         </div>
                                     </div>
 
@@ -425,7 +425,7 @@
                                 <p class="d-flex flex-wrap mb-2">
                                     <strong>Name:</strong>
 
-                                    <span>Prathamesh Edison</span>
+                                    <span>Prathamesh Pawar</span>
                                 </p>
 
                                 <p class="d-flex flex-wrap mb-2">
@@ -440,7 +440,7 @@
                                     <strong>Phone:</strong>
 
                                     <a href="#">
-                                        +91 12 345 6789
+                                        (91) 12 345 6789
                                     </a>
                                 </p>
                             </div>
@@ -488,7 +488,7 @@
 
                                         <div>
                                             <p>
-                                                <a href="transation-detail.html">Akash Mahajan</a>
+                                                <a href="transation-detail.html">Akash M.</a>
                                             </p>
 
                                             <small class="text-muted">C2C Transfer</small>
@@ -497,7 +497,7 @@
 
                                     <div class="ms-auto">
                                         <small>05/12/2023</small>
-                                        <strong class="d-block text-danger"><span class="me-1">-</span> 250</strong>
+                                        <strong class="d-block text-danger"><span class="me-1">-</span> $250</strong>
                                     </div>
                                 </div>
 
@@ -516,7 +516,7 @@
 
                                     <div class="ms-auto">
                                         <small>22/8/2023</small>
-                                        <strong class="d-block text-success"><span class="me-1">+</span> 280</strong>
+                                        <strong class="d-block text-success"><span class="me-1">+</span> $280</strong>
                                     </div>
                                 </div>
 
@@ -533,7 +533,7 @@
 
                                     <div class="ms-auto">
                                         <small>22/8/2023</small>
-                                        <strong class="d-block text-success"><span class="me-1">+</span> 280</strong>
+                                        <strong class="d-block text-success"><span class="me-1">+</span> $280</strong>
                                     </div>
                                 </div>
 
@@ -575,7 +575,7 @@
                             <div class="row">
                                 
                                 <div class="col-lg-12 col-12">
-                                       
+                                     
                                 </div>
 
                             </div>
@@ -586,7 +586,7 @@
             </div>
         </div>
 
-        
+        <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/apexcharts.min.js"></script>
@@ -653,7 +653,7 @@
             },
             yaxis: {
               title: {
-                text: '   (thousands)'
+                text: '$ (thousands)'
               }
             },
             fill: {
@@ -662,7 +662,7 @@
             tooltip: {
               y: {
                 formatter: function (val) {
-                  return "   " + val + " thousands"
+                  return "$ " + val + " thousands"
                 }
               }
             }
