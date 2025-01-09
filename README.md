@@ -8,7 +8,7 @@ The Analytics Dashboard is a powerful tool for visualizing and analyzing data. I
 
 ## Screenshot
 
-![Analytics Dashboard Screenshot](./images/.png)
+![Analytics Dashboard Screenshot](./images/finance.png)
 
 ## Features
 
