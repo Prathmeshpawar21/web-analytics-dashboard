@@ -1,4 +1,4 @@
-# Finance Analytics Dashboard - [Live](https://analytics-ten-sigma.vercel.app/)
+# Finance Analytics Dashboard - [Live](https://mini-analytics-dashboard.netlify.app/)
 
 Welcome to the Analytics Dashboard project! This repository contains the code for my React and Next.js-based web application.
 
