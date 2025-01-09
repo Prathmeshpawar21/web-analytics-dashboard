@@ -28,11 +28,11 @@ The Analytics Dashboard is a powerful tool for visualizing and analyzing data. I
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/analytics-dashboard.git
+   git clone https://github.com/Prathmeshpawar21/web-analytics-dashboard.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd analytics-dashboard
+   cd web-analytics-dashboard
    ```
 3. Install dependencies:
    ```bash
